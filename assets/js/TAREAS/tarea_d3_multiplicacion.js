@@ -14,41 +14,31 @@
 // Factorial de 2 es: 2
 // Factorial de 3 es: 6
 
-let numero = prompt("Ingresa un número entre el 1 y el 20 ")
+let numero = parseInt(prompt("Ingresa un número entre el 1 y el 20 "));
 
 function Matematica(numero){
-
-    if (numero >=1 && numero <=20 ){
+    if (numero >= 1 && numero <= 20 ){
         Tablas_multiplicacion(numero);
         Factorial(numero);
-
     } else {
-        console.log("El número ingresado no es válido")
+        console.log("El número ingresado no es válido");
     }
-
 }
 
 function Tablas_multiplicacion(numero){
-    const multiplo = numero;
-    for(let i = 1; i <= numero ; i = i + 1){
-        
-        console.log(`${multiplo} X ${i} = ${multiplo*i}`)
+    for(let i = 1; i <= numero ; i++){  // i++ es para sumar de 1 en 1
+        console.log(`${numero} X ${i} = ${numero*i}`)
     }
-
 }
 
 function Factorial(numero){
     let resultado_factorial = 1;
-    for(let i = 1; i <= numero ; i = i + 1){
+    for(let i = 1; i <= numero ; i++){
         resultado_factorial = i * resultado_factorial ;
         console.log(`El factorial de ${i} es ${resultado_factorial}`)
-
-        
         }
-        console.log("Fin")
+        console.log("No me gustan las matematicas :c")
     }
-    
 
-
-    Matematica(numero);
+Matematica(numero);
 
