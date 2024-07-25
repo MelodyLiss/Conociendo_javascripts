@@ -115,7 +115,7 @@ var suma = n1 + n2
 console.log("El resultado de la suma de " + n1 + " + " + n2 + "es = " + suma  ) // con concatenación
 console.log (`El resultado de la suma de ${n1} + ${n2} es = ${suma}`) // con
 
-
+//<> EXPRESION --> conjunto de datos que se pueden reducir a 1 solo dato.
 
 
 

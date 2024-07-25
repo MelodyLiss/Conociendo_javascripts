@@ -14,9 +14,11 @@
 // Factorial de 2 es: 2
 // Factorial de 3 es: 6
 
+
+function Matematica(){
 let numero = parseInt(prompt("Ingresa un número entre el 1 y el 20 "));
 
-function Matematica(numero){
+
     if (numero >= 1 && numero <= 20 ){
         Tablas_multiplicacion(numero);
         Factorial(numero);
@@ -40,5 +42,5 @@ function Factorial(numero){
         console.log("No me gustan las matematicas :c")
     }
 
-Matematica(numero);
+Matematica();
 
