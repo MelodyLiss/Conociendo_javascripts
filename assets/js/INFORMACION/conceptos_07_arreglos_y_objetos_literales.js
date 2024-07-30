@@ -11,14 +11,13 @@ let arregloMixto = [2,"Julio", true]
 // Debemos diferenciar algunos conceptos :
 
 let estaciones = ["otoño", "invierno","primavera","verano"] //<> Este es muestro arreglo
-            //     1         2           3         4       //<> El arreglo tiene 4 valores 
-            //     0         1           2         3       //<> Pero el indice parte en 0
+            //     1         2           3         4        //<> El arreglo tiene 4 valores 
+            //     0         1           2         3        //<> Pero el indice parte en 0
 // EN CUANTO AL INDICE DEBEMOS SIMPLEMENTE TOMAR LA CANTIDAD DE VALORES -1
 
     //<> Acceder un valor del arreglo 
     console.log(estaciones[2]); 
     //Podemos acceder mediente el nombre del arreglo y entre "[]"el indice que queremos.
-
     //Los arreglos son dinámicos.Esto quiere decir que cambiar su tamaño y contenido durante la ejecución del programa. 
 
 //!Métodos para arreglos:
@@ -30,7 +29,6 @@ let estaciones = ["otoño", "invierno","primavera","verano"] //<> Este es muestr
         for(let i=0;i< estaciones.length; i++){
             console.log(estaciones[i]);
         }
-
 
 //!Objetos literales
     // Los llamamos literales porque el objeto se define directamente en el código usando una sintaxis específica, sin necesidad de utilizar constructores o funciones adicionales.
