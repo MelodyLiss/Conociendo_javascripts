@@ -28,6 +28,10 @@ let estaciones = ["otoño", "invierno","primavera","verano"] //<> Este es muestr
                     console.log(estaciones[i]);
                 }
 
+        //let ultimoElemento = arreglo[arreglo.length - 1];
+// o
+let ultimoElemento = arreglo.at(-1);
+
 //!Objetos literales
     // Los llamamos literales porque el objeto se define directamente en el código usando una sintaxis específica, sin necesidad de utilizar constructores o funciones adicionales.
     //Se definen usando {} y se compone atributos con clave-valor , los cuales separamos entre ",".
