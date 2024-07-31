@@ -28,7 +28,7 @@ console.log(header);
 
 
 
-mensaje_js.innerHTML = "Este mensaje fue escrito desde Javascripts"; //innerHTML sirve para modificar el interior del elemento HTML designado.
+mensaje_js.innerHTML = "Este mensaje fue escrito desde Javascripts"; //innerHTML sirve para modificar el interior del elemento HTML designado , modificandolo toooodo lo del interior , asique cuidadito !!
 
 
 //<> Eventos

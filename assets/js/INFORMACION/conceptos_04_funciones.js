@@ -22,3 +22,12 @@ function parImpar(){
 }
 
 parImpar()
+
+//!funcion con retorno .
+    //Retorna algún dato , para ello usamos la palabra reservada "return".
+    //La opcion con retorno , siempre es la última en ejecutarse y siempre se retorna un único valor.
+    function funcionConRetorno(){
+        return "esto es lo que devuelve la funcion";
+    }
+
+    console.log(funcionConRetorno());

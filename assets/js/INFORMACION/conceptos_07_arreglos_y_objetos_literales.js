@@ -20,15 +20,13 @@ let estaciones = ["otoño", "invierno","primavera","verano"] //<> Este es muestr
     //Podemos acceder mediente el nombre del arreglo y entre "[]"el indice que queremos.
     //Los arreglos son dinámicos.Esto quiere decir que cambiar su tamaño y contenido durante la ejecución del programa. 
 
-//!Métodos para arreglos:
+        //!Métodos  .length 
+            // Nos sirve para ver el largo del arreglo , es decir toma la cantidad de valores que tiene.
+                console.log(estaciones.length);
 
-    //<> .length 
-    // Nos sirve para ver el largo del arreglo , es decir toma la cantidad de valores que tiene.
-        console.log(estaciones.length);
-
-        for(let i=0;i< estaciones.length; i++){
-            console.log(estaciones[i]);
-        }
+                for(let i=0;i< estaciones.length; i++){
+                    console.log(estaciones[i]);
+                }
 
 //!Objetos literales
     // Los llamamos literales porque el objeto se define directamente en el código usando una sintaxis específica, sin necesidad de utilizar constructores o funciones adicionales.
