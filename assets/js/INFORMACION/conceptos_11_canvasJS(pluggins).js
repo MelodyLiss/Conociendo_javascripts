@@ -16,7 +16,7 @@ var chart = new CanvasJS.Chart("chartContainer", {
 			{ label: "banana", y: 25  },
 			{ label: "mango",  y: 30  },
 			{ label: "grape",  y: 28  }
-		]
+		]      
 	}
 	]
 });
